@@ -1,0 +1,45 @@
+.flatItem {
+  margin-bottom: 30px;
+  padding: 10px 15px 20px;
+  flex: 0 0 320px;
+  max-width: 320px;
+  min-height: 550px;
+  background: #f2f2f2;
+}
+
+.title {
+  margin: 20px auto 11px;
+  padding: 1px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.flatDescription,
+.agentInfo {
+  display: flex;
+  align-items: center;
+
+  & p {
+    margin-left: 10px;
+    font-style: italic;
+  }
+
+  @media (min-width: 700px) {
+    flex-direction: column;
+
+    & p {
+      margin-left: 0;
+    }
+  }
+}
+
+.postLike {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: #d43560;
+
+  @media (min-width: 700px) {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "response": [
+    {
+      "type": "flat",
+      "id": 1,
+      "img": "https://lifewithme.com/wp-content/uploads/2018/09/6FG2lcX0L3lx-310x410.jpg",
+      "attributes": {
+        "title": "3-х комнатная на Минской",
+        "rooms": 3,
+        "address": {
+          "city": "Tyumen",
+          "street": "Минская",
+          "house": "3a",
+          "room": "123"
+        },
+        "area": 134,
+        "unit": "квм"
+      },
+      "relationships": {
+        "type": "agent",
+        "id": 2,
+        "attributes": {
+          "first_name": "Василий",
+          "last_name": "Дроздов",
+          "middle_name": "Михайлович"
+        }
+      },
+      "like": true
+    },
+    {
+      "type": "flat",
+      "id": 2,
+      "img": "https://i.pinimg.com/736x/ae/b1/9f/aeb19f61760c315d032f6377cd58d75a--sliding-glass-door-sliding-doors.jpg",
+      "attributes": {
+        "title": "1 комнатная на Барабаинской",
+        "rooms": 2,
+        "address": {
+          "city": "Tyumen",
+          "street": "Барабинская",
+          "house": "12",
+          "room": "45"
+        },
+        "area": 34,
+        "unit": "квм"
+      },
+      "relationships": {
+        "type": "agent",
+        "id": 10,
+        "attributes": {
+          "first_name": "Михаил",
+          "last_name": "Иванов",
+          "middle_name": "Демидович"
+        }
+      },
+      "like": true
+    },
+    {
+      "type": "flat",
+      "id": 3,
+      "img": "https://sun9-42.userapi.com/H9DLI00Mf3hyK7NS239158fm7v71B65sIREnmA/gfzl1Nabyqg.jpg",
+      "attributes": {
+        "title": "Квартира Ленина",
+        "rooms": 4,
+        "address": {
+          "city": "Tyumen",
+          "street": "Ленина",
+          "house": "134",
+          "room": "24"
+        },
+        "area": 134,
+        "unit": "квм"
+      },
+      "relationships": {
+        "type": "agent",
+        "id": 44,
+        "attributes": {
+          "first_name": "Степан",
+          "last_name": "Карачаев",
+          "middle_name": "Иванович"
+        }
+      },
+      "like": true
+    }
+  ]
+}
